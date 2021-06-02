@@ -1,6 +1,6 @@
 # Fused local position in NED.
 
-Header header
+std_msgs/Header header
 
 bool xy_valid				# true if x and y are valid
 bool z_valid				# true if z is valid
