@@ -26,6 +26,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/Setpoint.msg"
         "msg/VehiclePosition.msg"
+        "msg/Sensor.msg"
          DEPENDENCIES std_msgs)
 
 
